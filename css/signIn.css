@@ -1,0 +1,223 @@
+#sign-header {
+  padding-top: 45px;
+  width: 1080px;
+  margin: 0 auto;
+  overflow: hidden; }
+  #sign-header .sign-main-logo {
+    float: left; }
+    #sign-header .sign-main-logo > a {
+      display: block;
+      background: url("../img/main_logo5.png") no-repeat 0 0 #fff;
+      height: 60px;
+      width: 250px; }
+  #sign-header .sign-next-logo {
+    float: right; }
+    #sign-header .sign-next-logo a {
+      display: block;
+      background: url("../img/upload_ae75f583dcb3536e115449a11bde5434_390x40.png") no-repeat;
+      height: 50px;
+      width: 360px; }
+
+#sign-main-content {
+  width: 1080px;
+  height: 650px;
+  margin: 0 auto;
+  position: relative; }
+  #sign-main-content .sign-bg-logo {
+    float: left; }
+    #sign-main-content .sign-bg-logo > a {
+      position: absolute;
+      left: 0;
+      top: 0;
+      display: block;
+      width: 500px;
+      height: 354px;
+      background: url("../loginimg/09751803412737_500x354.png") no-repeat; }
+  #sign-main-content .sign-input-content {
+    height: 450px;
+    width: 380px;
+    float: right;
+    padding: 0 20px;
+    border: 1px solid #3D3D3D;
+    border-top: 2px solid #ff4965; }
+    #sign-main-content .sign-input-content form {
+      width: 400px; }
+      #sign-main-content .sign-input-content form .sign-title-box {
+        margin-bottom: 15px;
+        padding-top: 30px; }
+        #sign-main-content .sign-input-content form .sign-title-box .sign-title {
+          font-size: 12px;
+          font-weight: 600;
+          color: #000;
+          margin-right: 130px; }
+        #sign-main-content .sign-input-content form .sign-title-box .sign-title-login {
+          font-size: 12px;
+          font-weight: 400;
+          color: #666; }
+          #sign-main-content .sign-input-content form .sign-title-box .sign-title-login a {
+            color: #ff4965;
+            margin-left: 10px; }
+      #sign-main-content .sign-input-content form .sign-ipt-group {
+        margin-bottom: 15px;
+        width: 340px;
+        position: relative;
+        border: 1px solid #CCCCCC; }
+        #sign-main-content .sign-input-content form .sign-ipt-group .iconfont1 {
+          width: 18px;
+          height: 17px;
+          border-right: 1px solid #e6e6e6;
+          padding-right: 10px;
+          position: absolute;
+          left: 8px;
+          top: 8px;
+          background: url("../loginimg/upload_c8f6a2dfe4ca17b3941740e88373a88e_14x93.jpg") no-repeat; }
+        #sign-main-content .sign-input-content form .sign-ipt-group .iconfont3 {
+          width: 18px;
+          height: 17px;
+          border-right: 1px solid #e6e6e6;
+          padding-right: 10px;
+          position: absolute;
+          left: 8px;
+          top: 10px;
+          background: url("../loginimg/upload_c8f6a2dfe4ca17b3941740e88373a88e_14x93.jpg") no-repeat;
+          background-position-y: -47px; }
+        #sign-main-content .sign-input-content form .sign-ipt-group input {
+          margin-left: 10px;
+          height: 30px;
+          font-size: 12px;
+          width: 258px;
+          color: #666;
+          line-height: 30px;
+          outline: 0;
+          padding-left: 30px;
+          background: 0 0;
+          border: none; }
+      #sign-main-content .sign-input-content form .pull-group {
+        background: #E8E8E8;
+        margin-bottom: 15px;
+        border: 1px solid #CCCCCC;
+        width: 340px;
+        height: 34px;
+        position: relative;
+        text-align: center; }
+        #sign-main-content .sign-input-content form .pull-group .pull-box {
+          background: #FFFDEF;
+          border: 1px solid #7F7F7F;
+          position: absolute;
+          width: 42px;
+          height: 32px;
+          text-align: right;
+          font-size: 25px;
+          top: 0;
+          left: 0; }
+        #sign-main-content .sign-input-content form .pull-group > span {
+          margin-left: 60px;
+          font-size: 12px;
+          line-height: 34px;
+          color: #9c9c9c; }
+        #sign-main-content .sign-input-content form .pull-group .comfirm {
+          display: none;
+          color: #FFFDEF; }
+        #sign-main-content .sign-input-content form .pull-group .right-box {
+          height: 34px;
+          width: 30px;
+          float: right; }
+        #sign-main-content .sign-input-content form .pull-group .left-box {
+          height: 34px;
+          float: left;
+          background: #7AC23C;
+          opacity: 0.3;
+          position: absolute;
+          left: 0;
+          top: 0; }
+      #sign-main-content .sign-input-content form .sign-duanxin-box {
+        height: 34px;
+        margin: 0 auto;
+        margin-bottom: 15px; }
+        #sign-main-content .sign-input-content form .sign-duanxin-box .sign-ipt-duanxin {
+          float: left;
+          width: 240px;
+          height: 34px;
+          position: relative;
+          border: 1px solid #CCCCCC; }
+          #sign-main-content .sign-input-content form .sign-duanxin-box .sign-ipt-duanxin .iconfont2 {
+            width: 18px;
+            height: 16px;
+            border-right: 1px solid #e6e6e6;
+            padding-right: 10px;
+            position: absolute;
+            left: 8px;
+            top: 12px;
+            background: url("../loginimg/upload_c8f6a2dfe4ca17b3941740e88373a88e_14x93.jpg") no-repeat;
+            background-position-y: -31px; }
+          #sign-main-content .sign-input-content form .sign-duanxin-box .sign-ipt-duanxin input {
+            margin-left: 10px;
+            height: 30px;
+            font-size: 12px;
+            width: 180px;
+            color: #666;
+            line-height: 30px;
+            padding-left: 28px;
+            border: none; }
+        #sign-main-content .sign-input-content form .sign-duanxin-box .sign-duanxin-confirm {
+          height: 30px;
+          width: 70px;
+          text-align: center;
+          float: right;
+          margin-right: 58px;
+          line-height: 30px;
+          color: #ff4965;
+          background: #fff;
+          border: 1px solid #ff4965;
+          border-radius: 2px;
+          font-size: 12px; }
+          #sign-main-content .sign-input-content form .sign-duanxin-box .sign-duanxin-confirm a {
+            display: block; }
+        #sign-main-content .sign-input-content form .sign-duanxin-box .sign-duanxin-confirm :hover {
+          background: #FF4965;
+          color: #FFFDEF; }
+      #sign-main-content .sign-input-content form .register > a {
+        background: #ff4965;
+        width: 340px;
+        height: 32px;
+        display: block;
+        line-height: 32px;
+        color: #FFFDEF;
+        text-align: center;
+        font-size: 14px;
+        letter-spacing: 6px;
+        border-radius: 3px; }
+      #sign-main-content .sign-input-content form > P {
+        margin-top: 15px;
+        font-size: 12px;
+        width: 320px;
+        word-break: break-word;
+        color: #666666; }
+        #sign-main-content .sign-input-content form > P > a {
+          color: #ff4965; }
+      #sign-main-content .sign-input-content form .sign-third {
+        margin-top: 15px; }
+        #sign-main-content .sign-input-content form .sign-third span {
+          line-height: 24px;
+          font-size: 12px;
+          float: left; }
+        #sign-main-content .sign-input-content form .sign-third a {
+          display: block;
+          width: 25px;
+          height: 24px;
+          margin: 0 4px;
+          float: left; }
+        #sign-main-content .sign-input-content form .sign-third .qq {
+          background: url(../loginimg/backgroundsign.png) no-repeat; }
+        #sign-main-content .sign-input-content form .sign-third .taobao {
+          background: url(../loginimg/backgroundsign.png) no-repeat;
+          background-position-x: -60px; }
+        #sign-main-content .sign-input-content form .sign-third .weichat {
+          background: url(../loginimg/backgroundsign.png) no-repeat;
+          background-position-x: -120px; }
+        #sign-main-content .sign-input-content form .sign-third .qq:hover {
+          background-position-x: -30px; }
+        #sign-main-content .sign-input-content form .sign-third .taobao:hover {
+          background-position-x: -90px; }
+        #sign-main-content .sign-input-content form .sign-third .weichat:hover {
+          background-position-x: -150px; }

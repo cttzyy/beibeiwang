@@ -1,0 +1,12 @@
+#login-auto-box {
+  height: 20px; }
+  #login-auto-box .login-auto-con {
+    float: left;
+    font-size: 10px; }
+  #login-auto-box .forget {
+    float: right;
+    font-size: 10px;
+    margin-right: 59px;
+    color: #FF4965; }
+  #login-auto-box .forget:hover {
+    opacity: 0.5; }

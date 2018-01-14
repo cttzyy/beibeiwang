@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/signIn.css" />
+		<link rel="stylesheet" type="text/css" href="css/common.css" />
+		<link rel="stylesheet" type="text/css" href="fontSign/iconfont.css" />
+		<link rel="stylesheet" type="text/css" href="css/login.css" />
+	</head>
+	<body>
+		<div id="login_header"></div>	
+		 <!--信息区域-->
+		<div id="sign-main-content">
+			<div class="sign-bg-logo">
+				<a href="#"></a>
+			</div>
+			<div class="sign-input-content">
+				<form action="">
+					<div class="sign-title-box">
+						<span class="sign-title">新用户注册</span>
+						<span class="sign-title-login">还没账号？<a href="#">立即注册</a></span>
+					</div>
+					<div class="sign-ipt-group">
+						<lable for="sign-telephone">
+							<i class="iconfont1"></i>
+							<input type="text" id="sign-telephone" placeholder="您的手机号/邮箱" /> 						</lable>
+					</div>
+					
+					<!--密码-->
+					<div class="sign-ipt-group">
+						<lable for="sign-password">
+							<i class="iconfont3"></i>
+							<input type="text" id="sign-password" placeholder="密码，6-16位数字或者字符" /> </lable>
+						<i class="inconfont "></i>
+					</div>
+					<div class="pull-group">
+						<span class="drags">请按住滑块,拖动到最右边</span>
+						<span class="comfirm">验证通过</span>
+						<div class="left-box"></div>
+						<div class="pull-box"><span class="sign-text-1">>></span><span class="inconfont sign-text-2"></span></div>
+						<div class="right-box"><i></i></div>
+					</div>
+					<div id="login-auto-box">
+						<div class="login-auto-con">
+						<input type="checkbox"  checked="checked"   class="remember-me"/>
+						<span>自动登录</span>
+						</div>
+						<a class="forget"   href="#">忘记密码</a>
+						
+					</div>
+					<!--<!--短信验证码-->
+					<!--<div class="sign-duanxin-box">
+						<div class="sign-ipt-duanxin">
+							<lable for="sign-duanxin">
+								<i class="iconfont2"></i>
+								<input type="text" id="sign-duanxin" placeholder="短信验证码" /> </lable>
+						</div>
+						<div class="sign-duanxin-confirm">
+							<a href="#">获取验证码</a>
+						</div>
+
+					</div>-->
+
+					
+					<!--注册按钮-->
+					<div class="register">
+						<a href="#">登录</a>
+					</div>
+					<!--<p class="password-info">为保障账户安全，建议密码为6-16位字符，可包含数字、字母和特殊字符</p>
+					<p class="sign-agreement">注册即接受 
+						<a href="#">《贝贝使用协议》</a>和
+						<a href="#">《社区使用协议》</a>
+					</p>
+					<div class="sign-third">
+						<span>快捷登录方式:</span>
+						<a class="qq" href="#"></a>
+						<a class="taobao" href="#"></a>
+						<a class="weichat" href="#"></a>
+					</div>-->
+				</form>
+				
+			</div>
+		</div>
+		<div id="bottom-login"></div>
+		<div id="footer-login"></div>
+	</body>
+</html>
+<script src="js/jquery-1.11.3.js"></script>
+	<script src="js/signIn.js"></script>
+<script>
+			$("#login_header").load("signIn.html #sign-header");
+			$("#bottom-login").load("publicPage.html #bottom-line");
+			$("#footer-login").load("publicPage.html #footer");
+			new Drag();
+</script>

@@ -1,0 +1,41 @@
+1.安装node
+2.推荐安装cnpm
+npm install cnpm -g --registry=https://registry.npm.taobao.org
+
+3.安装全局的gulp
+
+在com中执行cnpm install gulp –g
+
+4.新建一个文件夹 gulp 为例：
+D:\第二阶段\2\习题\gulp
+
+5.在gulp 的路径下执行：
+执行命令cnpm init来新建package.json
+6.局部安装cnpm:
+cnpm install gulp
+7.安装插件：
+cnpm install gulp --save-dev 
+cnpm install gulp-sass  --save-dev
+还有其他插件
+
+
+1.	sass的编译（gulp-sass）
+2.	less编译 （gulp-less）
+3.	重命名（gulp-rename）
+4.	自动添加css前缀（gulp-autoprefixer）
+5.	压缩css（gulp-minify-css）
+6.	js代码校验（gulp-jshint）
+7.	合并js文件（gulp-concat）
+8.	压缩js代码（gulp-uglify）
+9.	压缩图片（gulp-imagemin）
+10.	自动刷新页面（gulp-livereload，谷歌浏览器亲测，谷歌浏览器需安装livereload插件）
+11.	图片缓存，只有图片替换
+
+
+
+8编写 gulpfile.js的文件
+
+(三)	src：获取流(源文件路径)
+dest(目标)
+pipe
+contact 和并
